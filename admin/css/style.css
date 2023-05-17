@@ -6,4 +6,13 @@
   font-family: "Nunito", sans-serif;
 }
 
+.contenedor{
+  padding-top: 20px;
+  max-width: 1250px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content:center;
+  text-align: center;
+}
+
 
