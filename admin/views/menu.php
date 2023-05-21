@@ -16,16 +16,16 @@
             </ul>
         </li>
         <li>
-            <a href="producto.php">
+            <a href="form.php">
             <i class="fa-solid fa-database"></i>
-                <span class="link-name">Datos</span>
+                <span class="link-name">Nuevos Datos</span>
             </a>
             <ul class="sub-menu blank">
-                <li><a href="#" class="link-name">Datos</a></li>
+                <li><a href="#" class="link-name">Nuevos Datos</a></li>
             </ul>
         </li>
         <li>
-            <a href="sucursal.php">
+            <a href="#">
             <i class="fa-solid fa-cloud-arrow-up"></i>
                 <span class="link-name">Upload</span>
             </a>
@@ -34,7 +34,7 @@
             </ul>
         </li>
         <li>
-            <a href="sucursal.php">
+            <a href="#">
             <i class="fa-solid fa-chart-pie"></i>
                 <span class="link-name">Graficos</span>
             </a>
