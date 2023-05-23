@@ -16,54 +16,38 @@
                 <h2>Formulario:</h2>
                 <div class="content">
                     <div class="input-box">
-                        <label for="region">Región</label>
-                        <input type="text" name="region" placeholder="Ingresa la región a analizar">
-                    </div>
-                    <div class="input-box">
                         <label for="estado">Estado</label>
                         <input type="text" name="estado" placeholder="Ingresa el estado a analizar">
                     </div>
                     <div class="input-box">
                         <label for="cultivos">Daños en cultivos y pastos</label>
                         <select name="cultivos" id="cultivos">
-                            <option value="">Retraso de la siembra</option>
-                            <option value="">Algunos daños</option>
-                            <option value="">Probables pérdidas</option>
-                            <option value="">Pérdidas mayores</option>
-                            <option value="">Pérdidas excepcionales</option>
+                            <option value="1">Retraso de la siembra</option>
+                            <option value="2">Algunos daños</option>
+                            <option value="3">Probables pérdidas</option>
+                            <option value="4">Pérdidas mayores</option>
+                            <option value="5">Pérdidas excepcionales</option>
                         </select>
                     </div>
                     <div class="input-box">
                         <label for="incendios">Riesgo de incendios forestales</label>
                         <select name="incendios" id="incendios">
-                            <option value="">Existe riesgo</option>
-                            <option value="">Probable riesgo</option>
-                            <option value="">Alto riesgo</option>
-                            <option value="">Riesgo extremo</option>
-                            <option value="">Riesgo excepcional</option>
+                            <option value="1">Existe riesgo</option>
+                            <option value="2">Probable riesgo</option>
+                            <option value="3">Alto riesgo</option>
+                            <option value="4">Riesgo extremo</option>
+                            <option value="5">Riesgo excepcional</option>
                         </select>
                     </div>
                     <div class="input-box">
                         <label for="restriccion">Restricción de agua</label>
                         <select name="restriccion" id="restriccion">
-                            <option value="">Sin restricción</option>
-                            <option value="">Restricción voluntaria</option>
-                            <option value="">Restricción impuesta</option>
-                            <option value="">Restricción generalizada</option>
-                            <option value="">Situación de emergencia</option>
+                            <option value="1">Sin restricción</option>
+                            <option value="2">Restricción voluntaria</option>
+                            <option value="3">Restricción impuesta</option>
+                            <option value="4">Restricción generalizada</option>
+                            <option value="5">Situación de emergencia</option>
                         </select>
-                    </div>
-                    <div class="input-box">
-                        <label for="Iprecipitacion">Índice de precipitación</label>
-                        <input type="text" name="Iprecipitacion" placeholder="En mm">
-                    </div>
-                    <div class="input-box">
-                        <label for="Itemperatura">Índice de temperatura</label>
-                        <input type="text" name="Itemperatura" placeholder="En °C">
-                    </div>
-                    <div class="input-box">
-                        <label for="Ihumedad">Índice de humedad</label>
-                        <input type="text" name="Ihumedad" placeholder="En %">
                     </div>
                 </div>
                 <div class="button-container">

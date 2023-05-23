@@ -64,7 +64,6 @@
                                 65%
                                 <br>
                             </p>
-                            <a href="#">Editar</a>
                         </div>
                     </div>
                 </div>
