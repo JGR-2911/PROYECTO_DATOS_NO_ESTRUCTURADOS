@@ -1,7 +1,3 @@
-<?php
-include("views/header.php");
-include("views/menu.php");
-?>
 <div class="home-section">
     <div class="home-content">
         <i class="fa-solid fa-bars"></i>
@@ -76,8 +72,4 @@ include("views/menu.php");
             </form>
         </div>
     </div>
-
 </div>
-<?php
-include("views/footer.php");
-?>

@@ -1,0 +1,94 @@
+.containerBody{
+    display: flex;
+    justify-content: center;
+    align-items:first baseline;
+    min-height: 100vh;
+}
+
+.containerSuc{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px 50px;
+    padding: 100px 50px;
+}
+
+.containerSuc .cardS{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 350px;
+    height: 300px;
+    background: #dde4fd;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
+    transition: 0.5s;
+}
+
+.containerSuc .cardS:hover{
+    height: 500px;
+}
+
+.containerSuc .cardS .imgBx{
+    position: absolute;
+    top: 20px;
+    width: 300px;
+    height: 220px;
+    background-color: #333;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.containerSuc .cardS:hover .imgBx{
+    top: -100px;
+    scale: 0.95;
+    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.2);
+}
+
+.containerSuc .cardS .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.containerSuc .cardS .contentSuc{
+    position: absolute;
+    top: 252px;
+    width: 100%;
+    padding: 0 30px;
+    height: 35px;
+    overflow: hidden;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.containerSuc .cardS:hover .contentSuc{
+    top: 150px;
+    height: 340px;
+}
+
+.containerSuc .cardS .contentSuc h3{
+    font-size: 1.5em;
+    font-weight: 600;
+    color: var(--clr);
+}
+
+.containerSuc .cardS .contentSuc a{
+    position: relative;
+    top: 15px;
+    display: inline-block;
+    padding: 12px 25px;
+    background: var(--clr);
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 30px;
+}
+

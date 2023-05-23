@@ -63,3 +63,12 @@
     background-position: center;
     background-image: url('../images/imagen1.jpg');
   }
+  .banner-3{
+    position:static;
+    width: 100%;
+    height:calc(65vh - 55px);
+    background-color: #B5BCC4;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../images/imagen2.jpg');
+  }

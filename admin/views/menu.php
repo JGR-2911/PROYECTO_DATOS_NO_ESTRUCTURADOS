@@ -16,7 +16,7 @@
             </ul>
         </li>
         <li>
-            <a href="form.php">
+            <a href="sequiaNuevo.php">
             <i class="fa-solid fa-database"></i>
                 <span class="link-name">Nuevos Datos</span>
             </a>
@@ -25,7 +25,7 @@
             </ul>
         </li>
         <li>
-            <a href="#">
+            <a href="sequiaUpload.php">
             <i class="fa-solid fa-cloud-arrow-up"></i>
                 <span class="link-name">Upload</span>
             </a>

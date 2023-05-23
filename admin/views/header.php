@@ -14,6 +14,8 @@
   <link href="css/menu.css?v=<?php echo rand(); ?>" rel="stylesheet" type="text/css">
   <link href="css/style.css?v=<?php echo rand(); ?>" rel="stylesheet" type="text/css">
   <link href="css/banner.css?v=<?php echo rand(); ?>" rel="stylesheet" type="text/css">
+  <link href="css/registro.css?v=<?php echo rand(); ?>" rel="stylesheet" type="text/css">
+  <link href="css/upload.css?v=<?php echo rand(); ?>" rel="stylesheet" type="text/css">
 </head>
 
 <body>
