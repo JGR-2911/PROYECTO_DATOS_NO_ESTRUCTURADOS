@@ -1,0 +1,10 @@
+[{
+  "_id": {
+    "$oid": "646fc828c8090371bc8e087a"
+  },
+  "estado": "Guanajuato",
+  "dano_cultivos": 3,
+  "riesgo": 2,
+  "restriccion": 1,
+  "promedio": 2
+}]

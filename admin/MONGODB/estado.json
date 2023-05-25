@@ -1,0 +1,225 @@
+[{
+  "_id": {
+    "$oid": "646d7b5d0551bc87baf5e64c"
+  },
+  "id_estado": 1,
+  "estado": "Aguascalientes",
+  "region": "Centronorte"
+},{
+  "_id": {
+    "$oid": "646d7b5d0551bc87baf5e64d"
+  },
+  "id_estado": 2,
+  "estado": "Baja California",
+  "region": "Noroeste"
+},{
+  "_id": {
+    "$oid": "646d7b5d0551bc87baf5e64e"
+  },
+  "id_estado": 3,
+  "estado": "Baja California Sur",
+  "region": "Noroeste"
+},{
+  "_id": {
+    "$oid": "646d7b5d0551bc87baf5e64f"
+  },
+  "id_estado": 4,
+  "estado": "Campeche",
+  "region": "Sureste"
+},{
+  "_id": {
+    "$oid": "646d7b5d0551bc87baf5e650"
+  },
+  "id_estado": 5,
+  "estado": "Chiapas",
+  "region": "Suroeste"
+},{
+  "_id": {
+    "$oid": "646d7b5d0551bc87baf5e651"
+  },
+  "id_estado": 6,
+  "estado": "Chihuahua",
+  "region": "Noroeste"
+},{
+  "_id": {
+    "$oid": "646d7b5d0551bc87baf5e652"
+  },
+  "id_estado": 7,
+  "estado": "Ciudad de Mexico",
+  "region": "Centrosur"
+},{
+  "_id": {
+    "$oid": "646d7b5d0551bc87baf5e653"
+  },
+  "id_estado": 8,
+  "estado": "Coahuila",
+  "region": "Noreste"
+},{
+  "_id": {
+    "$oid": "646d7b5d0551bc87baf5e654"
+  },
+  "id_estado": 9,
+  "estado": "Colima",
+  "region": "Oeste"
+},{
+  "_id": {
+    "$oid": "646d7b5d0551bc87baf5e655"
+  },
+  "id_estado": 10,
+  "estado": "Durango",
+  "region": "Noroeste"
+},{
+  "_id": {
+    "$oid": "646d7b5d0551bc87baf5e656"
+  },
+  "id_estado": 11,
+  "estado": "Estado de Mexico",
+  "region": "Centrosur"
+},{
+  "_id": {
+    "$oid": "646d7b5d0551bc87baf5e657"
+  },
+  "id_estado": 12,
+  "estado": "Guanajuato",
+  "region": "Centronorte"
+},{
+  "_id": {
+    "$oid": "646d7b5d0551bc87baf5e658"
+  },
+  "id_estado": 13,
+  "estado": "Guerrero",
+  "region": "Suroeste"
+},{
+  "_id": {
+    "$oid": "646d7b5d0551bc87baf5e659"
+  },
+  "id_estado": 14,
+  "estado": "Hidalgo",
+  "region": "Este"
+},{
+  "_id": {
+    "$oid": "646d7b5d0551bc87baf5e65a"
+  },
+  "id_estado": 15,
+  "estado": "Jalisco",
+  "region": "Oeste"
+},{
+  "_id": {
+    "$oid": "646d7b5d0551bc87baf5e65b"
+  },
+  "id_estado": 16,
+  "estado": "Michoacan",
+  "region": "Oeste"
+},{
+  "_id": {
+    "$oid": "646d7b5d0551bc87baf5e65c"
+  },
+  "id_estado": 17,
+  "estado": "Morelos",
+  "region": "Centrosur"
+},{
+  "_id": {
+    "$oid": "646d7b5d0551bc87baf5e65d"
+  },
+  "id_estado": 18,
+  "estado": "Nayarit",
+  "region": "Oeste"
+},{
+  "_id": {
+    "$oid": "646d7b5d0551bc87baf5e65e"
+  },
+  "id_estado": 19,
+  "estado": "Nuevo Leon",
+  "region": "Noreste"
+},{
+  "_id": {
+    "$oid": "646d7b5d0551bc87baf5e65f"
+  },
+  "id_estado": 20,
+  "estado": "Oaxaca",
+  "region": "Suroeste"
+},{
+  "_id": {
+    "$oid": "646d7b5d0551bc87baf5e660"
+  },
+  "id_estado": 21,
+  "estado": "Puebla",
+  "region": "Este"
+},{
+  "_id": {
+    "$oid": "646d7b5d0551bc87baf5e661"
+  },
+  "id_estado": 22,
+  "estado": "Queretaro",
+  "region": "Centronorte"
+},{
+  "_id": {
+    "$oid": "646d7b5d0551bc87baf5e662"
+  },
+  "id_estado": 23,
+  "estado": "Quintana Roo",
+  "region": "Sureste"
+},{
+  "_id": {
+    "$oid": "646d7b5d0551bc87baf5e663"
+  },
+  "id_estado": 24,
+  "estado": "San Luis Potosi",
+  "region": "Centronorte"
+},{
+  "_id": {
+    "$oid": "646d7b5d0551bc87baf5e664"
+  },
+  "id_estado": 25,
+  "estado": "Sinaloa",
+  "region": "Noroeste"
+},{
+  "_id": {
+    "$oid": "646d7b5d0551bc87baf5e665"
+  },
+  "id_estado": 26,
+  "estado": "Sonora",
+  "region": "Noroeste"
+},{
+  "_id": {
+    "$oid": "646d7b5d0551bc87baf5e666"
+  },
+  "id_estado": 27,
+  "estado": "Tabasco",
+  "region": "Sureste"
+},{
+  "_id": {
+    "$oid": "646d7b5d0551bc87baf5e667"
+  },
+  "id_estado": 28,
+  "estado": "Tamaulipas",
+  "region": "Noreste"
+},{
+  "_id": {
+    "$oid": "646d7b5d0551bc87baf5e668"
+  },
+  "id_estado": 29,
+  "estado": "Tlaxcala",
+  "region": "Este"
+},{
+  "_id": {
+    "$oid": "646d7b5d0551bc87baf5e669"
+  },
+  "id_estado": 30,
+  "estado": "Veracruz",
+  "region": "Este"
+},{
+  "_id": {
+    "$oid": "646d7b5d0551bc87baf5e66a"
+  },
+  "id_estado": 31,
+  "estado": "Yucatan",
+  "region": "Sureste"
+},{
+  "_id": {
+    "$oid": "646d7b5d0551bc87baf5e66b"
+  },
+  "id_estado": 32,
+  "estado": "Zacatecas",
+  "region": "Centronorte"
+}]

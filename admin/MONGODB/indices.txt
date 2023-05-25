@@ -1,0 +1,19 @@
+Daños en cultivos y pastos
+  -- Solo retraso de la siembra---D0 Anormalmente seco
+  -- Algunos daños---D1 Sequia moderada
+  -- Problables pérdidas
+  -- Pérdidas mayores
+  -- Pérdidas excepcionales
+Riesgo de incendios forestales
+  -- Existe riesgo---D0 Anormalmente seco
+  -- Probable riesgo
+  -- Alto riesgo
+  -- Riesgo extremo
+  -- Riesgo excepcional
+Restricción de agua
+  -- Sin restricción---D0 Anormalmente seco
+  -- Restricción voluntaria
+  -- Restricción impuesta
+  -- Restricción generalizada
+  -- Situación de emergencia
+
