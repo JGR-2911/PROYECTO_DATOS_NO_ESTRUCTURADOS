@@ -1,27 +1,5 @@
 <?php
-
-/*class MongoDBConnection {
-    private $host;
-    private $port;
-    private $database;
-
-    public function __construct($host, $port, $database) {
-        $this->host = $host;
-        $this->port = $port;
-        $this->database = $database;
-    }
-
-    public function connect() {
-        try {
-            
-            $mongoClient = new MongoDB\Client("mongodb://{$this->host}:{$this->port}");
-            $db = $mongoClient->{$this->database};
-            return $db;
-        } catch (MongoDB\Driver\Exception\ConnectionTimeoutException $e) {
-            die("Error al conectar a la base de datos: " . $e->getMessage());
-        }
-    }
-} */
+require_once 'C:\xampp\htdocs\PROYECTO_DATOS_NO_ESTRUCTURADOS\vendor\autoload.php';
 
 class MongoDBConnection {
     private $client;
@@ -40,4 +18,5 @@ class MongoDBConnection {
         return $this->database;
     }
 }
+
 ?>
