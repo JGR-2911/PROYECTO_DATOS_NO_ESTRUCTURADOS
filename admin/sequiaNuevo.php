@@ -10,12 +10,15 @@ include("php/basedatos.php");
 $host = 'localhost';
 $port = 27017;
 $database = 'sequia';
+$collection = 'reporte';
 
-// Crear una instancia de la clase MongoDBConnection
 $connection = new MongoDBConnection($host, $port, $database);
+$client = $connection->connect();
 
-// Conectar a la base de datos
-$db = $connection->connect();
+if ($client) {
+  
 
-
+} else {
+    echo "Error al conectar a MongoDB";
+}
 ?>
