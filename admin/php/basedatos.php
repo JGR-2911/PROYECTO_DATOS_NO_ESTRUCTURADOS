@@ -17,6 +17,8 @@ class MongoDBConnection {
     public function selectDatabase() {
         return $this->database;
     }
+
+   
 }
 
 ?>

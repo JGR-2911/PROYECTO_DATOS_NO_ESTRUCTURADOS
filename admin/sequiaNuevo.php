@@ -1,13 +1,14 @@
 <?php
 include("views/header.php");
 include("views/menu.php");
-//include("views/sequia/form.php");
+include("views/sequia/form.php");
 include("views/footer.php");
 //CLASE NUEVA
 require_once "php/basedatos.php";
 
 
 // Configuración de la conexión
+/*
 $host = 'localhost';
 $port = 27017;
 $database = 'sequia';
@@ -23,7 +24,7 @@ if ($client) {
     echo "Base de datos seleccionada: $database";
 
 // CREACION DE UN INSER 
-    $document = [
+   /* $document = [
                    'estado_id' => 100,
                    'estadp' => 'PRUEBA',
                    'region' => 'Norte'
@@ -51,5 +52,5 @@ if ($client) {
     echo "Error al conectar a MongoDB";
 }
 
-
+*/
 ?>
