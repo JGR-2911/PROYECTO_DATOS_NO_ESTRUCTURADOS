@@ -6,13 +6,13 @@ require_once "../../php/basedatos.php";
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     //VARIABLES DONDE SE DEPOSITAN LOS DATYOS DEL FORMULARIO
-    $lestado = intval($_POST['estado']);
+    $lestado = $_POST['estado'];
     $lcultivos = intval ($_POST['cultivos']);
     $lincendios = intval ($_POST['incendios']);
     $lrestriccion = intval ($_POST['restriccion']);
 
     $promedio = ($lcultivos + $lincendios + $lrestriccion)/3;
-    $promediod = floatval(number_format($promedio, 1));
+    $promediod = floatval(number_format($promedio, 0));
 
     // CONECTAR CON LA DB Y HACER LA INSERCION
     //DATOS DE LA CONEXION
@@ -26,7 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     //PREPARACION DEL DOCUMENTO PARA LA INSERCION 
     $document = [
-        'estado_id' => $lestado,
+        'estado' => $lestado,
         'cultivos' => $lcultivos,
         'incendios' =>  $lincendios,
         'restriccion' =>  $lrestriccion,

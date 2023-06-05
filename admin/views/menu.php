@@ -34,7 +34,7 @@
             </ul>
         </li>
         <li>
-            <a href="#">
+            <a href="graficos.php">
             <i class="fa-solid fa-chart-pie"></i>
                 <span class="link-name">Graficos</span>
             </a>
