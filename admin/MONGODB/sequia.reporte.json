@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "647af039a81a0000de004f32"
+  },
+  "cultivos": 1,
+  "incendios": 1,
+  "restriccion": 1,
+  "promedio": 1,
+  "estado": "Aguascalientes"
+},
+{
+  "_id": {
+    "$oid": "647b7d29d641000076007642"
+  },
+  "cultivos": 4,
+  "incendios": 2,
+  "restriccion": 5,
+  "promedio": 3.7,
+  "estado": "Durango"
+},
+{
+  "_id": {
+    "$oid": "647b7dafd641000076007644"
+  },
+  "cultivos": 1,
+  "incendios": 4,
+  "restriccion": 5,
+  "promedio": 3.3,
+  "estado": "Durango"
+},
+{
+  "_id": {
+    "$oid": "647da7135a2100001b000e88"
+  },
+  "estado": "Baja California Sur",
+  "cultivos": 4,
+  "incendios": 2,
+  "restriccion": 3,
+  "promedio": 3
+}]
