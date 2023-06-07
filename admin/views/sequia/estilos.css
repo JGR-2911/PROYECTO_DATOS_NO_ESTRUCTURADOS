@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+  list-style: none;
+}
+.body1 {
+  background-image: url(../../images/mar.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container {
+  position: relative;
+  align-items: center;
+  align-content: center;
+  background-color: #062734;
+  width: 700px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.mensaje {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+}
+
+.buttons{
+    margin-top: 18px;
+    text-align: center;
+  }
+  
+  .btn {
+    border: none;
+    padding: 12px 24px;
+    border-radius: 24px;
+    font-size: 12px;
+    font-size: 0.8rem;  
+    letter-spacing: 2px;  
+    cursor: pointer;
+  }
+  
+  .btn + .btn {
+    margin-left: 10px;
+  }
+  
+  .outline {
+    background: #7AB201;
+    color: rgba(0, 0, 0, 0.95);
+    filter: drop-shadow(0);
+    font-weight: bold;
+    transition: all .3s ease;
+  }
+  
+  .outline:hover{
+    transform: scale(1.125);  
+    border-color: rgba(255, 255, 255, 0.9);
+    filter: drop-shadow(0 10px 5px rgba(119, 33, 33, 0.125));
+    transition: all .3s ease;   
+    text-decoration: none; 
+    font-size: 15px;
+    color: #fff;
+    font-weight: 700;
+  }
+  

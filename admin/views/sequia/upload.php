@@ -12,13 +12,14 @@
     <div class="containerUp">
         <div class="wrapper">
             <header>File Uploader</header>
-            <form action="#" class="form">
-                <input class="file-input" type="file" name="file" hidden>
+            <form action="views/sequia/prueba.php" class="form" method="POST"  enctype="multipart/form-data">
+                <input class="file-input" type="file" name="archivo" hidden>
                 <i class="fas fa-cloud-upload-alt"></i>
                 <p>Browse File to Upload</p>
+                <div class="button-container">
+                    <button type="submit">Subir archivo</button>
+                </div>
             </form>
-            <section class="progress-area"></section>
-            <section class="uploaded-area"></section>
         </div>
     </div>
 </div>

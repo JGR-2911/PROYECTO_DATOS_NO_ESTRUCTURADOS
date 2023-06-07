@@ -4,7 +4,6 @@ require_once 'C:\xampp\htdocs\PROYECTO_DATOS_NO_ESTRUCTURADOS\vendor\autoload.ph
 class MongoDBConnection {
     private $client;
     private $database;
-
     public function __construct($host, $port, $database) {
         $this->client = new MongoDB\Driver\Manager("mongodb://$host:$port");
         $this->database = $database;
@@ -16,9 +15,7 @@ class MongoDBConnection {
 
     public function selectDatabase() {
         return $this->database;
-    }
-
-   
+    }   
 }
 
 ?>
