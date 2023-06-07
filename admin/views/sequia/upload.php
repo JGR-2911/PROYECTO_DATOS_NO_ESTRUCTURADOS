@@ -21,5 +21,19 @@
                 </div>
             </form>
         </div>
+        <?php
+        $manager = new MongoDB\Driver\Manager("mongodb://localhost:27017");
+        $databaseName = "sequia";
+        $collectionName = "archivos";
+
+        // Construye la consulta para obtener todos los documentos de la colección
+        $query = new MongoDB\Driver\Query([]);
+
+        // Ejecuta la consulta
+        $data = $manager->executeQuery("$databaseName.$collectionName", $query);
+
+        // Recorre los documentos y muestra los datos
+        include_once "archivos.php";
+        ?>
     </div>
 </div>

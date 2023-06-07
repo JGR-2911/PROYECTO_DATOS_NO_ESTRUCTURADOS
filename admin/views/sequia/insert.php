@@ -3,16 +3,14 @@ require_once "../../php/basedatos.php";
 include "submenu.php";
 //MOSTRAR LOS DATOS DEL FORMULIO PARA INSERTAR EN LA BD
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-
     //VARIABLES DONDE SE DEPOSITAN LOS DATYOS DEL FORMULARIO
-    $lestado = intval($_POST['estado']);
+    $lestado = $_POST['estado'];
     $lcultivos = intval ($_POST['cultivos']);
     $lincendios = intval ($_POST['incendios']);
     $lrestriccion = intval ($_POST['restriccion']);
 
     $promedio = ($lcultivos + $lincendios + $lrestriccion)/3;
     $promediod = floatval(number_format($promedio, 1));
-
     // CONECTAR CON LA DB Y HACER LA INSERCION
     //DATOS DE LA CONEXION
     $host = 'localhost';
@@ -37,7 +35,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // Crear el objeto de inserción
     $insertOne = new MongoDB\Driver\BulkWrite();
     $insertOne->insert($document);
-
     // Especificar la base de datos y la colección
     $namespace = "$database.$collection";
 
