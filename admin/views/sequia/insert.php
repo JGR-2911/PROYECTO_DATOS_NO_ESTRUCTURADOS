@@ -19,11 +19,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $collection = 'reporte';
     $db = (new MongoDB\Client)->$database;
 
-    $bucket = $db->selectGridFSBucket();
     //CONEXION A LA BD LLAMANDO A LA CLASE DB
     $connection = new MongoDBConnection($host, $port, $database);
     $client = $connection->connect();
-    $bucket = new MongoDB\GridFS\Bucket($client,$database);
     //PREPARACION DEL DOCUMENTO PARA LA INSERCION 
     $document = [
         'estado' => $lestado,

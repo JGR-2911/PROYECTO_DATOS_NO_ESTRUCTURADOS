@@ -19,7 +19,7 @@
     <br><br><br><br><br><br><br><br><br>
     <div class="container">
         <br>
-        <h1 clas="mensaje" style="text-align: center;font-weight:600; color:#fff;">Se ingresaron los datos con éxito</h1>
+        <h1 clas="mensaje" style="text-align: center;font-weight:600; color:#000;">Se realizo la operación con éxito</h1>
     </div>
     </div>
     <br><br>
@@ -30,6 +30,10 @@
         <br><br>
         <a href="../../sequiaNuevo.php">
             <button class="btn outline">Ir al formulario</button>
+        </a>
+        <br><br>
+        <a href="../../sequiaUpload.php">
+            <button class="btn outline">Subir un archivo</button>
         </a>
     </div>
 </body>

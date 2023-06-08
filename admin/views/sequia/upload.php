@@ -6,13 +6,13 @@
     <section class="banner-3">
         <div class="banner-content">
             <h1>UPLOAD</h1>
-            Sube un archivo para que se analicen los datos.
+            Sube un archivo de importancia en el tópico de las sequías para la población.
         </div>
     </section>
     <div class="containerUp">
         <div class="wrapper">
             <header>File Uploader</header>
-            <form action="views/sequia/prueba.php" class="form" method="POST"  enctype="multipart/form-data">
+            <form action="views/sequia/subir_archivo.php" class="form" method="POST"  enctype="multipart/form-data">
                 <input class="file-input" type="file" name="archivo" hidden>
                 <i class="fas fa-cloud-upload-alt"></i>
                 <p>Browse File to Upload</p>

@@ -33,7 +33,7 @@ if (isset($_FILES['archivo']) && $_FILES['archivo']['error'] === UPLOAD_ERR_OK) 
     
     // Verifica si la inserción fue exitosa
     if ($resultado->getInsertedCount() > 0) {
-        echo "El archivo se ha subido correctamente.";
+        include "submenu.php";
     } else {
         echo "Error al subir el archivo.";
     }

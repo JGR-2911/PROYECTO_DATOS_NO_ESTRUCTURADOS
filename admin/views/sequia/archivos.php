@@ -9,7 +9,7 @@
                     <thead>
                         <tr bgcolor="#292E31" style="align-items:center; color: #B9E87F;">
                             <th scope="col" width="100%" style="font-size: 25px;">Nombre del archivo</th>
-                            <th scope="col"  style="font-size: 25px;">Operación</th>
+                            <th scope="col" style="font-size: 25px;">Operación</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -24,11 +24,13 @@
                                 <td>
                                     <a href="views/sequia/descargar.php?_id=<?php echo $documento->_id ?>" type="button"
                                         class="btn btn-light" target="blank">Descargar</a>
+                                    <a href="views/sequia/eliminar_archivo.php?_id=<?php echo $documento->_id ?>"
+                                        type="button" class="btn btn-light" target="blank">Eliminar</a>
                                 </td>
                             </tr>
                         <?php endforeach ?>
                         <tr>
-                            <th  style="font-size: 15px; text-align: center;">
+                            <th style="font-size: 15px; text-align: center;">
                                 Se encontraron
                                 <?php echo $nReg ?> registros.
                             </th>

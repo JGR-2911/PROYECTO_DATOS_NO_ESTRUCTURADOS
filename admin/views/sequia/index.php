@@ -86,32 +86,37 @@
             ?>
             <div class="containerBody">
                 <div class="containerSuc">
-                <?php $nReg = 0;
-                        foreach ($data as $documento):
-                            $nReg++; ?>
-                    <div class="cardS" style="--clr:#13133b;">
-                        <div class="imgBx">
-                            <img src="images/sequia.png">
+                    <?php $nReg = 0;
+                    foreach ($data as $documento):
+                        $nReg++; ?>
+                        <div class="cardS" style="--clr:#13133b;">
+                            <div class="imgBx">
+                                <img src="images/sequia.png">
+                            </div>
+                            <div class="contentSuc">
+                                <h3>
+                                    <?php echo $documento->estado; ?>
+                                </h3>
+                                <p>
+                                    <b>Daños en cultivos y pastos:</b>
+                                    <?php echo $documento->cultivos; ?>
+                                    <br>
+                                    <b>Riesgo de incendios forestales:</b>
+                                    <?php echo $documento->incendios; ?>
+                                    <br>
+                                    <b>Restricción de agua:</b>
+                                    <?php echo $documento->restriccion; ?>
+                                    <br>
+                                    <b>Promedio:</b>
+                                    <?php echo $documento->promedio; ?>
+                                    <br>
+                                    <a href="views/sequia/eliminar_registro.php?_id=<?php echo $documento->_id ?>"
+                                        type="button" class="btn btn-light" target="blank">Eliminar</a>
+                                        <a href="views/sequia/eliminar_registro.php?_id=<?php echo $documento->_id ?>"
+                                        type="button" class="btn btn-light" target="blank">Editar</a>
+                                </p>
+                            </div>
                         </div>
-                        <div class="contentSuc">
-                            <h3>
-                            <?php echo $documento->estado;?>
-                            </h3>
-                            <p>
-                                <b>Daños en cultivos y pastos:</b>
-                                <?php echo $documento->cultivos;?>
-                                <br>
-                                <b>Riesgo de incendios forestales:</b>
-                                <?php echo $documento->incendios;?>
-                                <br>
-                                <b>Restricción de agua:</b>
-                                <?php echo $documento->restriccion;?>
-                                <br>
-                                <b>Promedio:</b>
-                                <?php echo $documento->promedio;?>
-                            </p>
-                        </div>
-                    </div>
                     <?php endforeach ?>
                 </div>
             </div>
