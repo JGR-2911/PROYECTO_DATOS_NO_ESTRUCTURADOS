@@ -8,7 +8,6 @@ $collectionName = "archivos";
 // ID del documento que contiene el archivo a descargar
 $documentoId = new MongoDB\BSON\ObjectID($_GET['_id']);
 
-// Nombre de la colección que contiene el archivo
 
 // Crea una consulta para obtener el documento con el archivo
 $query = new MongoDB\Driver\Query(['_id' => $documentoId]);

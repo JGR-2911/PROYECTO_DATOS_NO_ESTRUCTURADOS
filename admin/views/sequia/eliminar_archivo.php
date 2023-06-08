@@ -6,10 +6,10 @@ $manager = new MongoDB\Driver\Manager("mongodb://localhost:27017");
 $databaseName = "sequia";
 $collectionName = "archivos";
 
-// ID del documento que contiene el archivo a descargar
+// ID del documento que contiene el archivo a eliminar
 $documentoId = new MongoDB\BSON\ObjectID($_GET['_id']);
 
-// Nombre de la colección que contiene el archivo
+
 
 // Crea una consulta para obtener el documento con el archivo
 $query = new MongoDB\Driver\Query(['_id' => $documentoId]);
@@ -30,7 +30,7 @@ if ($documento) {
     $respuesta = $crud->eliminar($id);
     // Nombre original del archivo
     //$nombreArchivo = $documento->nombre;
-
+    include "submenu.php";
     // Encabezados para la descarga
     //header('Content-Type: application/octet-stream');
     //header('Content-Disposition: attachment; filename="' . $nombreArchivo . '"');

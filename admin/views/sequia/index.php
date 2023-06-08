@@ -112,8 +112,6 @@
                                     <br>
                                     <a href="views/sequia/eliminar_registro.php?_id=<?php echo $documento->_id ?>"
                                         type="button" class="btn btn-light" target="blank">Eliminar</a>
-                                        <a href="views/sequia/eliminar_registro.php?_id=<?php echo $documento->_id ?>"
-                                        type="button" class="btn btn-light" target="blank">Editar</a>
                                 </p>
                             </div>
                         </div>

@@ -32,6 +32,22 @@ class Crud extends Conexion
             return $th->getMessage();
         }
     }
+    public function actualizar($id, $datos)
+    {
+        try {
+            $conexion = Conexion::conectar();
+            $coleccion = $conexion->personas;
+            $respuesta = $coleccion->updateOne(
+                ['_id' => new MongoDB\BSON\ObjectId($id)],
+                [
+                    '$set' => $datos
+                ]
+            );
+            return $respuesta;
+        } catch (\Throwable $th) {
+            return $th->getMessage();
+        }
+    }
 
 }
 ?>
